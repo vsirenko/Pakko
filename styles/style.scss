@@ -103,3 +103,44 @@
    
 }
 
+.tarif {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    &-item {
+        flex: 0 0 32%;
+        &-01 {
+          .tarif-footer {
+              background-color: rgba(16, 10, 48, 0.03);
+          }  
+        }
+        &-02 {
+            .tarif-footer {
+                background-color: rgba(25, 199, 135, 0.05);
+            }  
+          }
+          &-03 {
+            .tarif-footer {
+                background-color: rgba(252, 185, 52, 0.05);
+            }  
+          }
+    }
+    &-footer {
+        border-radius: 0 0 8px 8px;
+    }
+    &-list {
+        list-style: none;
+        padding-left: 0;
+        padding-top: 26px;
+    }
+    &-list__item {
+        padding-bottom: 16px;
+        &:last-child {
+            padding-bottom: 26px;
+        }
+        &:first-child {
+
+        }
+    }
+}
+
