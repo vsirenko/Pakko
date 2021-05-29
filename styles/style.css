@@ -1,0 +1,124 @@
+.body {
+  color: #100A30;
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 1232px;
+  margin: 0 auto;
+  padding: 33px 15px;
+}
+
+.nav {
+  list-style: none;
+  padding-left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+}
+
+.nav__item {
+  margin-left: 47px;
+}
+
+.nav__item:first-child {
+  margin-left: 0px;
+}
+
+.nav__item:last-child {
+  margin-left: 27px;
+}
+
+.nav__link {
+  color: #100A30;
+  text-decoration: none;
+}
+
+.nav__btn {
+  font-size: 14px;
+  background-color: #624DE3;
+  text-decoration: none;
+  padding: 16px 27px;
+  border-radius: 6px;
+  color: #FFFFFF;
+}
+
+.container {
+  max-width: 1232px;
+  margin: 0 auto;
+  padding: 0px 15px;
+}
+
+.banner {
+  position: relative;
+  background-color: #100A30;
+  text-align: center;
+  color: #FFFFFF;
+  padding-bottom: 757px;
+}
+
+.banner__title {
+  padding-top: 62px;
+  font-size: 55px;
+  max-width: 570px;
+  margin: 0 auto;
+}
+
+.banner__text {
+  padding-top: 26px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.banner__img {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: -172px;
+  margin: 0 auto;
+}
+
+.btn-group {
+  margin-top: 63px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.btn-group__btn {
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 15px 37px;
+  border-radius: 6px;
+  border: 1px solid;
+  margin: 0 16px;
+}
+
+.btn-group__btn-main {
+  font-size: 15px;
+  background-color: #624DE3;
+  border: none;
+  border: 1px solid #624DE3;
+  padding: 16px 37px;
+}
+/*# sourceMappingURL=style.css.map */

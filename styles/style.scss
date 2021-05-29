@@ -1,0 +1,105 @@
+@import 'variables';
+
+
+.body {
+    color: $dark;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    max-width: 1232px;
+    margin: 0 auto;
+    padding: 33px 15px;
+}
+.nav {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    align-items: center;
+    margin: 0;
+
+    &__item {
+        margin-left: 47px;
+        &:first-child {
+            margin-left: 0px;
+        }
+        &:last-child { 
+            margin-left: 27px;
+        }
+    }
+    &__link {
+        color: $dark;
+        text-decoration: none;
+    }
+    &__btn {
+        font-size: 14px;
+        background-color: $purple;
+        text-decoration: none;
+        padding: 16px 27px;
+        border-radius: 6px;
+        color: $white;
+        
+    }
+}
+.container {
+    max-width: 1232px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+.banner {
+    position: relative;
+    background-color: $dark;
+    text-align: center;
+    color: $white;
+    padding-bottom: 757px;
+    
+    &__title {
+        padding-top: 62px;
+        font-size: 55px;
+        max-width: 570px;
+        margin: 0 auto;
+    }
+    &__text {
+        padding-top: 26px;
+        color: rgba(255, 255, 255, 0.7);
+    }
+
+    &__img {
+        position: absolute;
+        right: 0;
+        left: 0;
+        bottom: -172px;
+        margin: 0 auto; 
+    }
+
+}
+
+.btn-group {
+    margin-top: 63px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__btn {
+        color: $white;
+        text-decoration: none;
+        padding: 15px 37px;
+        border-radius: 6px;
+        border: 1px solid;
+        margin: 0 16px;
+
+        &-main {
+            font-size: 15px;
+            background-color: $purple;
+            border: none; 
+            border: 1px solid $purple;
+            padding: 16px 37px;
+        }
+    }
+   
+}
+
