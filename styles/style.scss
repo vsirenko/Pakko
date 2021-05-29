@@ -102,7 +102,17 @@
     }
    
 }
-
+.section {
+    margin-top: 168px;
+    &__title{
+        margin-top: 46px;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 56px;
+        display: flex;
+        justify-content: center;
+    }
+}
 .tarif {
     display: flex;
     justify-content: space-between;
@@ -132,15 +142,30 @@
         list-style: none;
         padding-left: 0;
         padding-top: 26px;
-    }
-    &-list__item {
-        padding-bottom: 16px;
-        &:last-child {
-            padding-bottom: 26px;
-        }
-        &:first-child {
 
+        &__item {
+            position: relative;
+            padding-bottom: 16px;
+            padding-left: 60px;
+            &:last-child {
+                padding-bottom: 26px;
+            }
+            &:first-child {
+    
+            }
+            &::before {
+                content: '';
+                background-image: url(../images/check-01.svg);
+                width: 20px;
+                height: 20px;
+                display: block;
+                position: absolute;
+                left: 0;
+                top: calc(50% - 21px);
+                margin-left: 26px;
+            }
         }
     }
+    
 }
 
